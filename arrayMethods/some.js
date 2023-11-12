@@ -8,33 +8,5 @@ const someExample = (array) => {
     })
 }
 
-const checkForTwoPersonItems = (itemsArray) => {
-    return orderContainsTwoPersonItems.some(function (itemsArray.deliveryType) {
-        return deliveryType == "2man"
-    })
-}
-
 const simpleArray = [-1, 0, 1, 2, 3]
 console.log(someExample(simpleArray))
-
-const orderData = [
-    {
-        "orderRef": "ABC123",
-        "items": [
-            {
-                "sku": "someMicrowave",
-                "deliveryType": "1man"
-            },
-            {
-                "sku": "someMicrowave",
-                "deliveryType": "1man"
-            },
-            {
-                "sku": "someHugeFridge",
-                "deliveryType": "2man"
-            }
-        ]
-    }
-]
-
-console.log(checkForTwoPersonItems(orderData.items))
