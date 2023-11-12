@@ -5,8 +5,6 @@
 //Again, the iteration function is already assigned to a variable so we just need to return that, either in the declaration or after it.
 //This would be good for getting the results you want from a large array of objects
 
-
-
 const filterExample = (array) => {
     return evens = array.filter(function (item) {
         return item % 2 === 0
