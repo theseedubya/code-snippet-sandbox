@@ -3,7 +3,7 @@
 //The function stops iterating once it reaches the end of the array or when the callback function returns true
 
 const someExample = (array) => {
-    return arrayContainsNegativeNumbers.some(function (item) {
+    return arrayContainsNegativeNumbers = array.some(function (item) {
         return item < 0;
     })
 }
