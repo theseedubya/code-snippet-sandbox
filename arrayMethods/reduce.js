@@ -2,6 +2,9 @@
 //The first time this iterates, it is going to get that result and that result will be put into the next iteration
 //The 0 at the end of the reduce function call is what the initial result is going to be. Without this, the inital result will be the first item in the array
 //In the first example, we start with an initial result of zero and then we go through and add each item in the array to the result
+//This would be good for getting a single return from an array of data. E.g. summing how many bookings have been made for a particular date
+
+
 
 const reduceExample = (array) => {
     return sumArray = array.reduce(function (result,item){
