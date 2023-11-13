@@ -27,10 +27,7 @@ const orderData =
                 "sku": "someHugeFridge",
                 "deliveryType": "2man"
             }
-        ],
-        transportRoute: function() {
-            return checkForTwoPersonItems(this.items)
-        }
+        ]        
     }
 
-console.log(JSON.stringify(orderData))
+console.log(JSON.parse(JSON.stringify(orderData)))
