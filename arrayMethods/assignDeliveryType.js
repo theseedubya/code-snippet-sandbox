@@ -5,13 +5,13 @@
 //This does not work yet but I will revisit
 
 const checkForTwoPersonItems = (itemsArray) => {
-    deliveryTypes = itemsArray.filter()
-    return orderContainsTwoPersonItems.some(function (deliveryType) {
-        return deliveryType == "2man"
+    const isTwoMan = itemsArray.some(function (item) {
+        return item.deliveryType == "2man"
     })
+    return isTwoMan ? "LargeCarrier" : "SmallCarrier"
 }
 
-const orderData = [
+const orderData = 
     {
         "orderRef": "ABC123",
         "items": [
@@ -27,8 +27,10 @@ const orderData = [
                 "sku": "someHugeFridge",
                 "deliveryType": "2man"
             }
-        ]
+        ],
+        transportRoute: function() {
+            return checkForTwoPersonItems(this.items)
+        }
     }
-]
 
-console.log(checkForTwoPersonItems(orderData.items))
+console.log(JSON.stringify(orderData))
