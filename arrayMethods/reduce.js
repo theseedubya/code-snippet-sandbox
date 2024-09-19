@@ -23,5 +23,5 @@ const sillyReduceExample = (array) => {
 
 
 const simpleArray = [1, 2, 3]
-console.log(reduceExample(simpleArray))
-//console.log(sillyReduceExample(simpleArray))
+//console.log(reduceExample(simpleArray))
+console.log(sillyReduceExample(simpleArray))

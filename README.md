@@ -6,9 +6,10 @@ Also, this repo should be a right click free zone and really force myself to git
 
 ### How to commit a new from the command line
 1. git add your {fileNames}
-2. git commit -m "your commit messasge here"
+2. git commit -m "your commit message here"
 3. git push
 
 ### How to commit changes to tracked files from the command line
-1. git commit -am "your commit messasge here"
+1. git commit -am "your commit message here"
 2. git push
+
